@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.upper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.browse-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+}
+
+.filter-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+.filter-panel form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter-panel label {
+    margin-top: 10px;
+}
+
+.filter-panel select,
+.filter-panel input {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.filter-panel button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e54d42;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.filter-panel button:hover {
+    background-color: #c13b33;
+}
+
+.login-left {
+    flex: 1;
+    padding: 40px;
+    background-color: #566D7E;
+}
+
+.login-right {
+    flex: 1;
+    background-color: #43aab8;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.login-left form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-left input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-left .social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login-left .social-login button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 14px;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.login-left button {
+    padding: 15px;
+    background-color: #e54d42;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-right button {
+    padding: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #43aab8;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-right button:hover {
+    background-color: #ddd;
+}
+
+.login-right p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.login-right h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-left button:hover {
+    background-color: #c13b33;
+}
+
+.login-left .social-login button:hover {
+    background-color: #bbb;
+}
+
+.login-container {
+    display: flex;
+    width: 700px;
+    background-color: #3e4b5a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+}
+
+.game-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tag-box {
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin: 5px 5px 0 0;
+    display: inline-block;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ecf0f1;
+}
+
+nav {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2;
+}
+
+.search-bar {
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero {
+    background-color: #34495e;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-header img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.game-header .game-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.game-header h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.game-header p {
+    margin: 5px 0;
+    color: #bdc3c7;
+}
+
+.game-description {
+    margin-bottom: 20px;
+}
+
+.reviews,.related-games {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #34495e;
+    border-radius: 10px;
+}
+
+.featured-games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+}
+
+.trending-discussions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    padding: 10px;
+    color: #ecf0f1;
+}
+
+.latest-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    background: #2c3e50;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.related-game-card {
+    background-color: #2c3e50;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.review-card, .discussion-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    background: #2c3e50;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.review-card img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.review-content h4 {
+    color: blue;
+    margin: 0 0 10px;
+}
+
+.review-content p {
+    color: blue;
+    margin: 0;
+    font-size: 14px;
+}
+
+.review-content ,.review-rating span {
+    margin-left: 10px;
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.game-item {
+    background-color: #2c3e50;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+.game-item img {
+    border-radius: 10px;
+    max-width: 120px;
+    margin-right: 15px;
+}
+
+.game-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    color: #ecf0f1;
+    padding: 10px 15px;
+    background-color: #2c3e50;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+}
+

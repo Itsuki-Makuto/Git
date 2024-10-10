@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Games</title>
+    <link href="Back ground .css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Browse Games</h1>
+
+    <nav>
+        <a href="home page.html">Home</a>
+        <a href="Browseing page.html">Browse Games</a>
+        <a href="Project_log_in.html">Login</a>
+    </nav>
+    
+    <br>
+
+    </div>
+        <div class="filter-panel">
+            <div class="search-bar">
+                <input type="text" placeholder="Search for a game...">
+                <button>Search</button>
+            </div>
+
+            <h3>Filters</h3>
+            <form>
+                <label style="align-items: center;">Genre:</label>
+                <select>
+                    <option value="">All</option>
+                    <option value="action">Action</option>
+                    <option value="rpg">RPG</option>
+                    <option value="shooter">Shooter</option>
+                    <option value="strategy">Strategy</option>
+                </select>
+                <br>
+                
+                <label>Platform:</label>
+                <select>
+                    <option value="">All</option>
+                    <option value="pc">PC</option>
+                    <option value="console">Console</option>
+                    <option value="mobile">Mobile</option>
+                </select>
+                <br>
+                
+                <label>Release Year:</label>
+                <input type="number" placeholder="Year" min="2000" max="2024">
+                <br>
+                
+                <button type="button">Apply Filters</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <div class="game-list">
+        <div class="game-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt2Q04_Axc9Pf1C0Fq7ebyYFQXfU3qoFAkdg&s" alt="Frostppunk">
+            <div class="game-details">
+                <a href="Frostpunk2(gdt).html"><h2>Frostpunk 2</h2></a>
+                <p>Genre: Action RPG, Mythology</p>
+                <p>Platform: PC, Console</p>
+                <span class="tag-box">Action RPG</span>
+                <span class="tag-box">Mythology</span>
+                <span class="tag-box">Souls-like</span>
+            </div>
+        </div>
+        
+        <div class="game-item">
+            <img src="data:image/jpeg;base64,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" alt="Satisfactory">
+            <div class="game-details">
+                <a href="Satisfactory(gdt).html"><h2>Satisfactory</h2></a>
+                <p>Genre: Shooter</p>
+                <p>Platform: PC</p>
+                <span class="tag-box">Shooter</span>
+                <span class="tag-box">Multiplayer</span>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    
+    <div class="pagination">
+        <a href="Browseing page.html">&laquo; Previous</a>
+        <a href="Browseing page.html">1</a>
+        <a href="Browseing page-2.html">2</a>
+        <a href="#">3</a>
+        <a href="#">Next &raquo;</a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Game Library. All rights reserved.</p>
+    </footer>
+</body>
+</html>
